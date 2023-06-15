@@ -1,0 +1,42 @@
+button {
+    background-color: #fff; /* Màu nền */
+    border: none; /* Không có đường viền */
+    color: #000; /* Màu chữ */
+    padding: 5px 10px; /* Khoảng cách văn bản và đường viền */
+    text-align: center; /* Căn giữa nội dung */
+    text-decoration: none; /* Không có gạch chân */
+    display: inline-block; /* Hiển thị dưới dạng khối */
+    font-size: 16px; /* Kích thước chữ */
+    cursor: pointer; /* Biểu tượng con trỏ */
+  }
+
+  button:hover {
+    background-color: #F1F1F1;
+  }
+
+  .teacher-search-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .teacher-search-container label {
+    flex: 0 0 auto;
+    width: 80px; /* Định rõ chiều rộng của label */
+  }
+  
+  .teacher-search-container input {
+    flex: 1 1 auto;
+    max-width: 200px; /* Giới hạn chiều rộng tối đa của input */
+    height: 25px;
+    border: none;
+  }
+  
+  .teacher-search-container button {
+    flex: 0 0 auto;
+    width: 70px; /* Định rõ chiều rộng của button */
+  }
+  
+  

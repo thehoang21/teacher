@@ -1,0 +1,25 @@
+.main-container {
+    background-color: #cccccc;
+    height: 100%;
+}
+
+.tab-container {
+    background-color: #F1F1F1;
+}
+/* Thiết lập kiểu cho phần nút tab */
+.tab {
+    display: inline-block; /* Hiển thị dưới dạng khối */
+    padding: 15px 15px; /* Khoảng cách văn bản và đường viền */
+    cursor: pointer; /* Biểu tượng con trỏ */
+  }
+  
+  /* Thiết lập kiểu cho phần nút tab được chọn */
+  .tab.active {
+    border-bottom: 3px solid #c0392b; /* Ẩnđường viền phía dưới */
+  }
+  
+  /* Thiết lập kiểu cho phần nội dung */
+  .tab-content {
+    border-top: none; /* Ẩn đường viền phía trên */
+    padding: 20px; /* Khoảng cách với đường viền */
+  }
